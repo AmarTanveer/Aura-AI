@@ -11,6 +11,9 @@ import { useContext } from "react";
 import { Context } from "../../context/Context";
 import { CgSearchLoading } from "react-icons/cg";
 
+// Import your images
+import assets from "../../assets.jsx";
+
 function Main() {
   const {
     onSent,
@@ -26,19 +29,19 @@ function Main() {
     <div className="main">
       <div className="nav">
         <p>Aura AI</p>
-        <img src="/src/assets/profile.jpeg" alt="Profile Pic" />
+        <img src={assets.profilePic} alt="Profile Pic" />
       </div>
 
       <div className="main-container">
         {showResult ? (
           <div className="result">
             <div className="result-title">
-              <img src="/src/assets/profile.jpeg" alt="Profile Pic" />
+              <img src={assets.profilePic} alt="Profile Pic" />
               <p>{recentPrompt}</p>
             </div>
 
             <div className="result-data">
-              <img src="/src/assets/aura-logo.svg" alt="" />
+              <img src={assets.auraLogo} alt="" />
               {loading ? (
                 <div className="loader">
                   <hr />

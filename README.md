@@ -2,6 +2,10 @@
 
 Aura AI is an intelligent chatbot designed to assist users with various queries, providing real-time responses and maintaining a history of interactions. Built with a modern tech stack including React and powered by the Gemini API, Aura AI aims to enhance user experience through intuitive design and efficient functionality.
 
+## Live Link
+
+https://aura-ai.netlify.app/
+
 ## Table of Contents
 
 - [Features](#features)

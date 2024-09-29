@@ -1,90 +1,60 @@
-# Aura AI - Intelligent Chatbot Solution
+# Aura AI
 
-**Technologies:**  
-- **Frontend:** React, JavaScript, HTML, CSS  
-- **Backend/API:** Gemini API  
-- **Build Tool:** Vite
+Aura AI is an intelligent chatbot designed to assist users with various queries, providing real-time responses and maintaining a history of interactions. Built with a modern tech stack including React and powered by the Gemini API, Aura AI aims to enhance user experience through intuitive design and efficient functionality.
 
----
+## Table of Contents
 
-## Live Link
-
-https://aura-ai.netlify.app/
-
-## Project Overview
-
-**Aura AI** is a chatbot that helps users by answering a wide variety of questions in real-time. It uses the **Gemini API** to provide accurate and relevant answers. The app is built with **React** for its interactive interface, and **CSS** for its design. 
-
-One useful feature of Aura AI is that it keeps track of your recent questions, displaying them in a side-bar, so you can easily refer back to them. The project uses **Vite** for fast development and smooth performance.
-
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [How It Works](#how-it-works)
 
 ## Features
-- **Real-time Chatbot Responses**: Powered by the Gemini API to deliver accurate and context-aware answers.
-- **Query History**: Stores recent prompts in a side-bar for easy navigation and reference.
-- **Responsive UI**: Built with React and styled using CSS for a sleek, modern look.
-- **Fast Development and Build**: Leveraging Vite for an optimized development environment with lightning-fast builds.
 
----
+- **Real-time Chatbot:** Quickly answers user queries powered by the Gemini API.
+- **Prompt History:** Stores and displays recent prompts in a sidebar for easy reference.
+- **User-Friendly Interface:** Clean and intuitive design created with HTML and CSS.
+- **Typing Animation:** Engages users with a dynamic typing animation for responses.
 
-## Installation
+## Technologies Used
 
-Follow the steps below to run the project locally:
+- **React:** For building the user interface.
+- **JavaScript:** For application logic and dynamic functionalities.
+- **HTML/CSS:** For structuring and styling the application.
+- **Vite:** For a fast development environment and optimized builds.
+- **Gemini API:** For processing and generating responses to user queries.
 
-1. **Clone the Repository**
+## Getting Started
 
+To get started with Aura AI, follow these steps:
+
+1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/aura-ai.git
+   git clone https://github.com/yourusername/aura-ai.git
    ```
 
-2. **Navigate to the Project Directory**
-
+2. **Navigate to the project directory:**
    ```bash
    cd aura-ai
    ```
 
-3. **Install Dependencies**
-
-   Install the required packages using npm or yarn:
-
+3. **Install dependencies:**
    ```bash
    npm install
-   # or
-   yarn install
    ```
 
-4. **Start the Development Server**
-
-   Use Vite to start the local development server:
-
+4. **Run the development server:**
    ```bash
    npm run dev
-   # or
-   yarn dev
    ```
 
-   This will start the app at `http://localhost:3000` by default.
+5. **Open your browser and navigate to** `http://localhost:3000` to view the application.
 
----
+## How It Works
 
-## Usage
+Aura AI utilizes a context provider to manage the state and functionalities of the chatbot. The key functionalities include:
 
-Once the app is running:
-
-1. Open the browser and go to `http://localhost:3000`.
-2. Enter your queries in the chatbot interface, and Aura AI will provide real-time responses powered by the Gemini API.
-3. View your previous prompts on the side-bar for easy reference and further conversation flow.
-
----
-
-
-## Contributing
-
-Contributions are welcome! If you'd like to improve Aura AI, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bugfix.
-3. Submit a pull request with detailed changes.
-
----
-
-### Thank you for using Aura AI!
+- **Input Handling:** The user inputs queries, which are processed and sent to the Gemini API.
+- **Loading State:** A loading indicator is shown while the chatbot processes the input.
+- **Response Display:** Responses are displayed with a typing animation to enhance user engagement.
+- **Prompt History:** Recent prompts are stored and displayed in the sidebar for easy access.
